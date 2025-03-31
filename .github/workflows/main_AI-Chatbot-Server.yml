@@ -24,7 +24,7 @@ jobs:
       with:
         registry: https://index.docker.io/v1/
         username: ${{ secrets.steveanik }}
-        password: ${{ secrets.dckr_pat_vyxI19YtI2dHIDzELZkVnrBEYws }}
+        password: ${{ secrets.Mypassword@1228 }}
 
     - name: Build and push container image to registry
       uses: docker/build-push-action@v3
