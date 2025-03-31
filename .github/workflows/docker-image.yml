@@ -35,6 +35,6 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
-          app-name: YOUR_AZURE_APP_NAME
+          app-name: AI-Chatbot-Server
           slot-name: production  # Change if you're using slots
-          images: your-docker-repo/your-image-name:${{ github.sha }}
+          images: steveanik/langchain-ai-chatbot-server:latest${{ github.sha }}
