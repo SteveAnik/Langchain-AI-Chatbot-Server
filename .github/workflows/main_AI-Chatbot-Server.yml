@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: index.docker.io/AzureAppService_ContainerUsername_26fff7eb896e4dd48f711c1d3919513e/steveanik/langchain-ai-chatbot-server:latest
+        tags: index.docker.io/26fff7eb896e4dd48f711c1d3919513e/steveanik/langchain-ai-chatbot-server:latest
         file: ./Dockerfile
 
   deploy:
@@ -47,4 +47,4 @@ jobs:
         app-name: 'AI-Chatbot-Server'
         slot-name: 'production'
         publish-profile: AzureAppService_PublishProfile_eb9d08e74cc24d4cb8b09d88f66d6f3f
-        images: 'index.docker.io/AzureAppService_ContainerUsername_26fff7eb896e4dd48f711c1d3919513e/steveanik/langchain-ai-chatbot-server:latest'
+        images: 'index.docker.io/26fff7eb896e4dd48f711c1d3919513e/steveanik/langchain-ai-chatbot-server:latest'
