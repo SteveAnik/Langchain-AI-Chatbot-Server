@@ -47,4 +47,4 @@ jobs:
         app-name: 'AI-Chatbot-Server'
         slot-name: 'production'
         publish-profile: AzureAppService_PublishProfile_eb9d08e74cc24d4cb8b09d88f66d6f3f
-        images: 'index.docker.io/steveanik/langchain-ai-chatbot-server:main'
+        images: 'index.docker.io/Langchain-AI-Chatbot-Server_steveanik_26fff7eb896e4dd48f711c1d3919513e/steveanik/langchain-ai-chatbot-server:main'
