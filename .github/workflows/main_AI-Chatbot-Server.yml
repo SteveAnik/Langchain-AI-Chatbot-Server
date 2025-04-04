@@ -24,7 +24,7 @@ jobs:
       with:
         registry: docker.io
         username: steveanik
-        password: dckr_pat_i1sFRuW77XsMsjIObgSNt5iE3Q4
+        password: Mypassword@1228     
 
     - name: Build and push container image to registry
       uses: docker/build-push-action@v3
